@@ -1,0 +1,209 @@
+<html>
+    <head>
+        <title> Ani Watch </title>
+        <link rel="icon" href="https://pbs.twimg.com/profile_images/1676239730994737152/Ii75RYHN_400x400.jpg">
+        <style>
+            /* body style */
+            *{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            body{
+                background-color: #242428;
+                color: azure;
+            }
+            /* header styling goes here*/
+            .header{
+                background-color: black;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+
+            } 
+            /*button styling goes here */ 
+            .login-button{
+                padding: 10px 20px;
+                background-color: rgb(236, 144, 32);
+                color: rgb(207, 250, 250);
+                border: none; 
+                border-radius: 5px;
+                cursor: pointer;
+            } 
+            .login-button:hover{
+                background-color: coral;
+            } 
+            /*search box styling goes here */
+            .search-box{
+                /* width: 200px; */
+                padding: 8px;
+                border: none;
+                border-radius: 5px;
+                margin-right: 10px; 
+            }   
+            a{
+                text-decoration: none;
+                color: aliceblue;
+                padding: 10px;
+            }  
+            .circle-container{
+                width: 50px;
+                height: 50px;
+                border-radius: 70%;
+            }  
+                /* class a1 */
+            .a1 {
+                display: grid;
+                grid-template-columns: repeat(5, 1fr);
+                gap: 10px;
+                padding-bottom: 10px;
+                padding-right: 5px;
+                justify-content: space-evenly;
+             }
+
+             /* Image container */
+            .image-container {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+              }
+
+             .img1 {
+                width: 250px;
+                height: 300px;
+                border-radius: 5px;
+             }
+
+            .img1:hover {
+               transform: scale(1.3);
+              }
+
+             /* Image name styling */
+             .image-name {
+                text-align: center;
+                margin-top: 5px;
+                font-weight: bold;
+        }
+        </style>
+
+
+    </head>
+    <body>
+    <!-- header part -->
+        <div class="header">
+            <h1>Watch Anime</h1>
+            <img src="	https://aniwatch.to/images/logo.png" height="60px" width="360px">
+            <div class="search">
+                <input type="text" class="search-box" placeholder="search">
+                <a href="#">Home</a>
+                <a href="#">Anime</a>
+                <a href="#">Random</a>
+                <a href="#">Community</a>
+            </div>
+            <img src="https://aniwatch.to/images/share-icon.gif" alt="GIF" class="circle-container">
+            <a href="./ loginpage.html"><button class="login-button"> Log in</button></a>
+        </div>
+        <br>
+        <br>
+        <div class="a1">
+            <div class="image-container">
+                <img src="https://flxt.tmsimg.com/assets/p186423_b_h9_ae.jpg" alt="One Piece" class="img1">
+                <div class="image-name">One Piece</div>
+            </div>
+            <div class="image-container">
+                <img src="https://upload.wikimedia.org/wikipedia/en/a/ae/Naruto_Shippuden_the_Movie.jpg" alt="Naruto: Shippuden" class="img1">
+                <div class="image-name">Naruto: Shippuden</div>
+            </div>
+            <div class="image-container">
+                <img src="https://www.awn.com/sites/default/files/styles/original/public/image/featured/1032566-viz-media-acquires-rights-boruto-naruto-next-generations-anime-series.jpg?itok=-Vab_O-d" alt="Boruto: Naruto Next Generation" class="img1">
+                <div class="image-name">Boruto: Naruto Next Generation</div>
+            </div>
+            <div class="image-container">
+                <img src="https://i0.wp.com/www.animegeek.com/wp-content/uploads/2022/03/Jujutsu-Kaisen-Season-1-Fearsome-Womb-Story-Arc-Anime.jpg?resize=724%2C1024&ssl=1" alt="Jujutsu Kaisen 2nd Season" class="img1">
+                <div class="image-name">Jujutsu Kaisen 2nd Season</div>
+            </div>
+            <div class="image-container">
+                <img src="https://m.media-amazon.com/images/M/MV5BZWFmM2NlMzAtZTNiMS00NWZlLTg4OTUtYzk5Y2JjMjkzN2QyXkEyXkFqcGdeQXVyNjMxNzQ2NTQ@._V1_.jpg" alt="Dragon Ball Z: Saiya-jin Zetsumetsu Keikaku" class="img1">
+                <div class="image-name">Dragon Ball Z: Saiya-jin Zetsumetsu Keikaku</div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <div class="a1">
+            <div class="image-container">
+                <img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1660287741i/61942735.jpg" alt="The Tunnel to Summer, the Exit of Goodbye" class="img1">
+                <div class="image-name">The Tunnel to Summer, the Exit of Goodbye</div>
+            </div>
+            <div class="image-container">
+                <img src="https://m.media-amazon.com/images/M/MV5BOGMwYTk0MTYtNzkyNC00YmQ4LTliNmEtZDFiNTU3MTMwMGM3XkEyXkFqcGdeQXVyNjc3MjQzNTI@._V1_.jpg" alt="Witch Hunter Robin" class="img1">
+                <div class="image-name">Witch Hunter Robin</div>
+            </div>
+            <div class="image-container">
+                <img src="https://images.kinorium.com/movie/poster/1659600/w1500_3461254.jpg" alt="Crayon Shin-chan Movie 08: Arashi wo Yobu Jungle" class="img1">
+                <div class="image-name">Crayon Shin-chan Movie 08: Arashi wo Yobu Jungle</div>
+            </div>
+            <div class="image-container">
+                <img src="https://m.media-amazon.com/images/M/MV5BYTIzMzI1YjAtY2Y5ZC00NTRmLTg3Y2MtMTg0NDE0NzY0YTUxXkEyXkFqcGdeQXVyNTc3MDU1MTU@._V1_.jpg" alt="All Out!!" class="img1">
+                <div class="image-name">All Out!!</div>
+            </div>
+            <div class="image-container">
+                <img src="https://cdn.myanimelist.net/s/common/store/cover/8984/50348c365fcdc34cb0abc4566c637ee78dc92c8ce122056f1ee31cb0605faff9/l.jpg" alt="Yahari Ore no Seishun Love Comedy wa Machigatteiru. Zoku OVA" class="img1">
+                <div class="image-name">Yahari Ore no Seishun Love Comedy wa Machigatteiru. Zoku OVA</div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <div class="a1">
+            <div class="image-container">
+                <img src="https://m.media-amazon.com/images/M/MV5BYTIxNjk3YjItYmYzMC00ZTdmLTk0NGUtZmNlZTA0NWFkZDMwXkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_FMjpg_UX1000_.jpg" alt="Demon Slayer: Kimetsu no Yaiba" class="img1">
+                <div class="image-name">Demon Slayer: Kimetsu no Yaiba</div>
+            </div>
+            <div class="image-container">
+                <img src="https://images.thedirect.com/media/article_full/titan0.jpg" alt="Attack on Titan" class="img1">
+                <div class="image-name">Attack on Titan</div>
+            </div>
+            <div class="image-container">
+                <img src="https://www.bigflix.com/wp-content/uploads/2023/10/5.jpe" alt="Tokyo Revengers" class="img1">
+                <div class="image-name">Tokyo Revengers</div>
+            </div>
+            <div class="image-container">
+                <img src="https://m.media-amazon.com/images/I/716ASj7z2GL.jpg"  alt="Death Note" class="img1">
+                <div class="image-name">Death Note</div>
+            </div>
+            <div class="image-container">
+                <img src="https://images.justwatch.com/poster/195464684/s592/hunter-x-hunter" alt="Hunter x Hunter" class="img1">
+                <div class="image-name">Hunter x Hunter</div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <div class="a1">
+            <div class="image-container">
+                <img src="https://img.anili.st/media/150077" alt="Paradox Live the Animation" class="img1">
+                <div class="image-name">Paradox Live the Animation</div>
+            </div>
+            <div class="image-container">
+                <img src="https://upload.wikimedia.org/wikipedia/en/7/72/Bleachanime.png" alt="Bleach" class="img1">
+                <div class="image-name">Bleach</div>
+            </div>
+            <div class="image-container">
+                <img src="https://www.crunchyroll.com/imgsrv/display/thumbnail/480x720/catalog/crunchyroll/e108ae17d8d0407417cac40eb52d849a.jpe" alt="Black Clover" class="img1">
+                <div class="image-name">Black Clover</div>
+            </div>
+            <div class="image-container">
+                <img src="https://m.media-amazon.com/images/M/MV5BZmQ5NGFiNWEtMmMyMC00MDdiLTg4YjktOGY5Yzc2MDUxMTE1XkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_FMjpg_UX1000_.jpg" alt="Naruto" class="img1">
+                <div class="image-name">Naruto</div>
+            </div>
+            <div class="image-container">
+                <img src="https://m.media-amazon.com/images/I/71vMGRog+iL._AC_UF1000,1000_QL80_.jpg" alt="Spy x Family" class="img1">
+                <div class="image-name">Spy x Family</div>
+            </div>
+        </div>
+
+        </div>
+        </div>
+
+        </div>
+        
+    </body>
+</html>
